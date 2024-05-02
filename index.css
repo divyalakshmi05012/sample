@@ -1,0 +1,58 @@
+/* .card-wrapper{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    width: 100vw;
+    height: 100vh;
+}    
+.diya-photo{
+    background-color: blanchedalmond !important;
+}
+.diya{
+  margin-left: 26%;
+  margin-top: 35px;
+  
+} */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  background-image: url('background.jpg'); /* Set the path to your background image */
+  background-size: 100vw 100vh;
+}
+
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: none; /* Add a semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin-top: 20%;
+}
+
+h1 {
+  color: #ff4081;
+}
+
+p {
+  color: #333;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: large;
+  font-weight: bolder;
+ color:black;
+}
+
+img {
+  max-width: 50%;
+  border-radius: 100px;
+  /* margin-bottom: 20px; */
+}
+
+.footer {
+  margin-top: 20px;
+  color: black;
+}
